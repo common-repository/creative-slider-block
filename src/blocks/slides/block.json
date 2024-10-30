@@ -1,0 +1,176 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "csblo/slides",
+	"version": "1.0.1",
+	"title": "Creative Slider",
+	"category": "design",
+	"description": "Gather blocks into a slider.",
+	"attributes": {
+		"type": {
+			"type": "string"
+		},
+
+		"height": {
+			"type": "string",
+			"default": "400px"
+		},
+		"autoHeight": {
+			"type": "boolean",
+			"default": false
+		},
+
+		"backgroundUrl": {
+			"type": "string"
+		},
+		"backgroundId": {
+			"type": "number"
+		},
+		"backgroundType": {
+			"type": "string",
+			"default": "image"
+		},
+		"backgroundAlt": {
+			"type": "string",
+			"default": ""
+		},
+		"backgroundFocalPoint": {
+			"type": "object"
+		},
+		"backgroundParallaxEnable": {
+			"type": "boolean",
+			"default": false
+		},
+		"backgroundParallaxMovement": {
+			"type": "number",
+			"default": 200
+		},
+
+		"speed": {
+			"type": "number",
+			"default": 300
+		},
+		"loop": {
+			"type": "boolean"
+		},
+		"autoplayEnable": {
+			"type": "boolean"
+		},
+		"autoplayDelay": {
+			"type": "number",
+			"default": 3000
+		},
+		"autoplayHoverPause": {
+			"type": "boolean",
+			"default": false
+		},
+		"autoplayDisableInteraction": {
+			"type": "boolean",
+			"default": false
+		},
+		"autoplayStopLast": {
+			"type": "boolean",
+			"default": false
+		},
+
+		"navigationEnable": {
+			"type": "boolean",
+			"default": true
+		},
+		"navigationIcon": {
+			"type": "string",
+			"default": "chevron-right"
+		},
+		"navigationSize": {
+			"type": "number",
+			"default": 35
+		},
+		"navigationRadius": {
+			"type": "number",
+			"default": 100
+		},
+		"navigationIconColor": {
+			"type": "object",
+			"properties": {
+				"slug": {
+					"type": "string"
+				},
+				"color": {
+					"type": "string"
+				}
+			}
+		},
+		"navigationBackgroundColor": {
+			"type": "object",
+			"properties": {
+				"slug": {
+					"type": "string"
+				},
+				"color": {
+					"type": "string"
+				}
+			}
+		},
+		"navigationPosition": {
+			"type": "string"
+		},
+		"navigationJustify": {
+			"type": "string"
+		},
+		"navigationAlign": {
+			"type": "string"
+		},
+		"navigationHoverReveal": {
+			"type": "boolean"
+		},
+
+		"paginationEnable": {
+			"type": "boolean",
+			"default": false
+		},
+		"paginationType": {
+			"type": "string",
+			"default": "bullets"
+		},
+		"paginationPosition": {
+			"type": "string"
+		},
+		"paginationBulletsSize": {
+			"type": "number",
+			"default": 8
+		},
+		"paginationProgressbarSize": {
+			"type": "number",
+			"default": 4
+		},
+		"paginationColor": {
+			"type": "object",
+			"properties": {
+				"slug": {
+					"type": "string"
+				},
+				"color": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"example": {},
+	"supports": {
+		"align": true,
+		"html": false,
+		"spacing": {
+			"padding": true
+		},
+		"color": {
+			"text": false,
+			"background": true,
+			"gradients": true,
+			"__experimentalDuotone": ".csblo-slides__image-background, .csblo-slides__video-background"
+		}
+	},
+	"textdomain": "creative-slider-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

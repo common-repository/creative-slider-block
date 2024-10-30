@@ -1,0 +1,46 @@
+{
+	"name": "creative-slider-block",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"start": "wp-scripts start --webpack-copy-php",
+		"build": "wp-scripts build --webpack-copy-php",
+		"packages-update": "wp-scripts packages-update",
+		"update-pot": "wp i18n make-pot . languages/block-visibility.pot --exclude=src",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"format": "wp-scripts format",
+		"wp-env": "wp-env",
+		"env:start": "wp-env start",
+		"env:stop": "wp-env stop",
+		"test:unit": "wp-scripts test-unit-js",
+		"test:e2e": "wp-scripts test-playwright",
+		"test:e2e:help": "wp-scripts test-playwright --help",
+		"test:e2e:debug": "wp-scripts test-playwright --debug",
+		"plugin-zip": "wp-scripts plugin-zip"
+	},
+	"files": [
+		"assets",
+		"dist",
+		"src",
+		"includes",
+		"languages",
+		"freemius",
+		"creative-slider-block.php",
+		"readme.txt",
+		"package.json",
+		"webpack.config.js"
+	],
+	"devDependencies": {
+		"@playwright/test": "^1.46.1",
+		"@wordpress/env": "^10.6.0",
+		"@wordpress/scripts": "^26.19.0",
+		"@wordpress/stylelint-config": "^22.6.0",
+		"webpack-remove-empty-scripts": "^1.0.4"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^14.1.0",
+		"classnames": "^2.5.1",
+		"swiper": "^11.1.11"
+	}
+}

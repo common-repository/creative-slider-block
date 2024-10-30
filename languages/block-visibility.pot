@@ -1,0 +1,443 @@
+# Copyright (C) 2024 Teva Studio
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Creative Slider Block 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/creative-slider-block\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-09-30T07:14:17+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: creative-slider-block\n"
+
+#. Plugin Name of the plugin
+#: C:\Users\tevac\Local Sites\devsite2\app\public\wp-content\plugins\creative-slider-block\creative-slider-block.php
+#: includes/admin/admin.php:18
+#: includes/admin/admin.php:19
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Creative Slider Block"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: C:\Users\tevac\Local Sites\devsite2\app\public\wp-content\plugins\creative-slider-block\creative-slider-block.php
+msgid "https://creativesliderblock.github.io"
+msgstr ""
+
+#. Description of the plugin
+#: C:\Users\tevac\Local Sites\devsite2\app\public\wp-content\plugins\creative-slider-block\creative-slider-block.php
+msgid "A custom Gutenberg Block that allows to showcase any content in a slider."
+msgstr ""
+
+#. Author of the plugin
+#: C:\Users\tevac\Local Sites\devsite2\app\public\wp-content\plugins\creative-slider-block\creative-slider-block.php
+msgid "Teva Studio"
+msgstr ""
+
+#: dist/blocks/slide/index.js:1
+msgid "Change content position"
+msgstr ""
+
+#: dist/blocks/slide/index.js:1
+#: dist/blocks/slides/index.js:1
+msgid "Replace Media"
+msgstr ""
+
+#: dist/blocks/slide/index.js:1
+#: dist/blocks/slides/index.js:1
+msgid "Add Media"
+msgstr ""
+
+#: dist/blocks/slide/index.js:1
+msgid "Settings"
+msgstr ""
+
+#: dist/blocks/slide/index.js:1
+#: dist/blocks/slides/index.js:1
+msgid "Focal point"
+msgstr ""
+
+#: dist/blocks/slide/index.js:1
+#: dist/blocks/slides/index.js:1
+msgid "Alternative text"
+msgstr ""
+
+#: dist/blocks/slide/index.js:1
+#: dist/blocks/slides/index.js:1
+msgid "Clear Media"
+msgstr ""
+
+#: dist/blocks/slide/index.js:1
+msgid "Overlay"
+msgstr ""
+
+#: dist/blocks/slide/index.js:1
+msgid "Overlay opacity"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Color"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Height"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Auto height"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Enable auto height"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Enable to allow the slider's height to adjust dynamically based on the content of each slide."
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Slides"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Transition settings"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Speed"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Duration (in ms) of transition between slides."
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Loop mode"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Autoplay"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Autoplay options"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Delay (ms)"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Pause on hover"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Stop after interaction"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Stop on last item"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Navigation"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Navigation buttons"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Icon"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Chevron"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Arrow"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Size (px)"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Button radius (px)"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Icon Color"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Button Background Color"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Button position"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Inside"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Below"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Button justification"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Justify start"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Justify center"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Justify end"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Justify space between"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Button vertical alignment"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Align top"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Align center"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Align bottom"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Reveal on hover"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Pagination"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Display pagination indicator"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Pagination type"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Bullets"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Progress"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Position"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Bottom"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Top"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Pagination bullet size (px)"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Progress bar size (px)"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Pagination indicator color"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Background Media"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Enable parallax effect"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Determines how the background move in response to the slider's progress."
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Parallax movement (px)"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Remove last slide"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Add a slide"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Disable preview"
+msgstr ""
+
+#: dist/blocks/slides/index.js:1
+msgid "Enable preview"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "-- Presets --"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Slide In - Stuck Out"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Slide In - Shrink Out"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Grow In - Shrink Out"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Rotate In - Rotate Out"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Slider settings"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Transition Effect"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Slide"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Fade"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Creative"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Slide direction"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Horizontal"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Vertical"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Gap (px)"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Applies transformations to the next and previous slides before they transition into the active position."
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Creative effect"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Presets"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Clear"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Next"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Previous"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Opacity"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Scale"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Translate X (%)"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Translate Y (%)"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Translate Z (px)"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Rotate X (deg)"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Rotate Y (deg)"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Rotate Z (deg)"
+msgstr ""
+
+#: dist/variations/slides-slider-variation/slides-slider-variation.js:1
+msgid "Display multiple blocks in the form of a slideshow, one slide at a time."
+msgstr ""
+
+#: dist/blocks/slide/block.json
+msgctxt "block title"
+msgid "Slide"
+msgstr ""
+
+#: dist/blocks/slide/block.json
+msgctxt "block description"
+msgid "A single slide within a Creative Slider block."
+msgstr ""
+
+#: dist/blocks/slides/block.json
+msgctxt "block title"
+msgid "Creative Slider"
+msgstr ""
+
+#: dist/blocks/slides/block.json
+msgctxt "block description"
+msgid "Gather blocks into a slider."
+msgstr ""

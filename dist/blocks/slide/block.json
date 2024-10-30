@@ -1,0 +1,90 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "csblo/slide",
+  "version": "1.0.1",
+  "title": "Slide",
+  "category": "design",
+  "description": "A single slide within a Creative Slider block.",
+  "parent": [
+    "csblo/slides"
+  ],
+  "attributes": {
+    "backgroundUrl": {
+      "type": "string"
+    },
+    "backgroundId": {
+      "type": "number"
+    },
+    "backgroundType": {
+      "type": "string",
+      "default": "image"
+    },
+    "backgroundAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "backgroundFocalPoint": {
+      "type": "object"
+    },
+    "overlayColor": {
+      "type": "string"
+    },
+    "customOverlayColor": {
+      "type": "string"
+    },
+    "gradient": {
+      "type": "string"
+    },
+    "customGradient": {
+      "type": "string"
+    },
+    "overlayOpacity": {
+      "type": "number",
+      "default": 1
+    },
+    "contentPosition": {
+      "type": "string"
+    },
+    "allowedBlocks": {
+      "type": "array"
+    },
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        "contentOnly",
+        false
+      ]
+    }
+  },
+  "example": {},
+  "supports": {
+    "html": false,
+    "spacing": {
+      "padding": true,
+      "blockGap": true
+    },
+    "color": {
+      "heading": true,
+      "text": true,
+      "background": false,
+      "enableContrastChecker": false
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true
+    },
+    "layout": {
+      "allowJustification": false
+    }
+  },
+  "textdomain": "creative-slider-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
